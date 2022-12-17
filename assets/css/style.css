@@ -131,3 +131,31 @@ a {
     bottom: 0;
 }
 
+/* ============ CLIENT ========== */
+.client {
+    margin-top: 122px;
+}
+
+.client .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.client .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.client .row-desc {
+    margin-top: 23px;
+}
+
+.client .images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 96px;
+}
+
