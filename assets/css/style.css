@@ -6,6 +6,11 @@
     --primary-color: #0f1b4c;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -52,18 +57,18 @@ a {
     z-index: 1;
 }
 
-.header {
+.hero-wrap {
     display: flex;
-    flex-direction: columns;
+    flex-direction: column;
     position: relative;
     background-color: #e6f0ff;
-    height: 100vh;
+    height: calc(100vh - 90px);
+    /* height: 100vh; */
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    /* padding-top: 38px; */
     padding: 12px 0;
 }
 
